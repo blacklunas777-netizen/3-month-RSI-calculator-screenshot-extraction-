@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+static/uploads/*
+.vscode/
+.idea/
+.DS_Store
+*.png
