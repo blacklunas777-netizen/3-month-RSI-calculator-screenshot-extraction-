@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RSI Result</title>
+</head>
+<body>
+    <h2>Uploaded Chart</h2>
+    <img src="{{ url_for('static', filename='uploads/' + image) }}" width="600"><br><br>
+    <h2>RSI Plot</h2>
+    <img src="{{ url_for('static', filename='uploads/' + plot) }}" width="600">
+</body>
+</html>
