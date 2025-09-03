@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RSI Analyzer</title>
+</head>
+<body>
+    <h2>Upload Chart Screenshot</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required><br><br>
+        <label>Price Min:</label>
+        <input type="number" step="0.01" name="price_min" required><br><br>
+        <label>Price Max:</label>
+        <input type="number" step="0.01" name="price_max" required><br><br>
+        <label>Chart Height (px):</label>
+        <input type="number" name="chart_height" value="300" required><br><br>
+        <input type="submit" value="Analyze RSI">
+    </form>
+</body>
+</html>
